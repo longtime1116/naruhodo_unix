@@ -18,6 +18,8 @@
 # ブロック内の処理を実行して終わる子プロセス
 puts "fork start #{Process.pid} / #{Process.ppid}!"
 fork do
+  # こっちは1秒後に出てくる
+  sleep 1
   puts "entered the fork block from #{Process.pid} / #{Process.ppid}!"
 end
 
