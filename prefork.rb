@@ -13,7 +13,7 @@ wpids = []
   wpids << fork do
     loop {
       connection = socket.accept
-      connection.puts 'Hello Readers!'
+      connection.puts "Hello Readers! Pid: #{Process.pid}"
       connection.close
       sleep 10
     } end
