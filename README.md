@@ -7,6 +7,9 @@
 # 付録B参考
 * Unicorn
   * https://yhbt.net/unicorn/
+* 付録D
+  * Spyglass
+    * https://pragprog.com/titles/jsunix/#resources
 
 # 感想
 * わかりやすくて良かった。詰まることなく読めた。
